@@ -1,4 +1,4 @@
-# Professional Three JS
+# Build an Animated 3D Website using Three.js | 3D Landing Page
 [![Preview](https://i.imgur.com/D2Um6dV.jpg)](https://www.youtube.com/watch?v=Gk_84KzeQlI)
 
 ## Setup
