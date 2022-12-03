@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body {
+    overflow-x: hidden;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+
+canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+main {
+    width: 100vw;
+    height: 200vw;
+    z-index: 99;
+    position: absolute;
+    justify-content: center;
+    text-align: center;
+    pointer-events: none;
+    font-size: 12px;
+    padding-top: 200px;
+}
+
+section {
+    min-height: 98vh;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.gradient-text {
+    background-image: -webkit-gradient(linear, left top, right top, from(#dec880), color-stop(27%, #fff), color-stop(57%, #ff3980), to(#827ded));
+    background-image: linear-gradient(90deg, #dec880, #fff 27%, #ffffff 57%, #ebd916);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+#scrollProgress {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    z-index: 99;
+    font-size: 10px;
+}
